@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkorange;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
+}
+
+.button {
+  display: flex;
+}
+
+.text {
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a style="color:black;" href="#home">startup</a>
+ 
+  <div  class="topnav-right">
+    <a style="color:black;" href="#news">Home</a>
+    <a style="color:black;" href="#contact">About Us</a>
+    <a style="color:black;"  href="#search">Contact</a>
+    <a style="color:black;" href="#about">Login</a>
+  </div>
+</div>
+
+<body style="background-color:black; color:white;">
+  <div class="container">
+    <div class="text">
+      <h1>Startup Landing Page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente, rerum perspiciatis iure labore natus vel praesentium quisquam sed laudantium dignissimos, placeat magni voluptatem explicabo expedita eius odio, accusamus dolorum.</p>
+      <button> Login</button>
+    </div>
+    <div class="image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlG9LGffipNQByVub9hBStZ5qTjfbd5YjrqHV_DaAJlg&usqp=CAU&ec=48665701" width="200px" height="200px">
+    </div>
+  </div>
+</body>
+
+</html>
